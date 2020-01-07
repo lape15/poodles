@@ -16,10 +16,14 @@ fetch(DOG_URL)
         dogBreed.appendChild(option)
        }
     });
-
-
+    
+    
     dogBreed.addEventListener('change', handleChange);
-
+    
+    mainImg.addEventListener('load', function() {
+        loader.classList.remove = ('show');
+        mainImg.classList.add = ('show');
+       });
     
     function handleChange(e) {
         loader.classList.add = ('show');
@@ -34,7 +38,3 @@ fetch(DOG_URL)
                 })
     }
 
-    mainImg.addEventListener('load', function() {
-        loader.classList.remove = ('show');
-        mainImg.classList.add = ('show');
-       });
