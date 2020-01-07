@@ -36,12 +36,7 @@ nav{
       height: 80vh;
       overflow: hidden;
   }
-  .main-image{
-    display : none
-} 
-  .show{
-      display: block
-  }
+  
   @keyframes spin {
       to{
           transform: rotateY(360deg);
@@ -57,7 +52,12 @@ nav{
          transform: rotateZ(360deg);
      }
  }
-
+ .main-image{
+    display : none
+} 
+  .show{
+      display: block
+  }
   .main-image {
     max-width: 100%;
     max-height: 80vh;
