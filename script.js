@@ -20,13 +20,8 @@ fetch(DOG_URL)
 
     dogBreed.addEventListener('change', handleChange);
 
-    mainImg.addEventListener('load', function() {
-       loader.classList.remove = ('show');
-       mainImg.classList.add = ('show');
-      });
     
-
-     function handleChange(e) {
+    function handleChange(e) {
         
         loader.classList.add = ('show')
         mainImg.classList.remove = ('show');
@@ -41,3 +36,7 @@ fetch(DOG_URL)
             })
     }
 
+    mainImg.addEventListener('load', function() {
+        loader.classList.remove = ('show');
+        mainImg.classList.add = ('show');
+       });
