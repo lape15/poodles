@@ -36,6 +36,11 @@ nav{
       height: 80vh;
       overflow: hidden;
   }
+  .main-image {
+    max-width: 100%;
+    max-height: 80vh;
+  }
+  
   
   @keyframes spin {
       to{
@@ -57,9 +62,5 @@ nav{
 } 
   .show{
       display: block
-  }
-  .main-image {
-    max-width: 100%;
-    max-height: 80vh;
   }
   
