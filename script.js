@@ -22,9 +22,8 @@ fetch(DOG_URL)
 
     
     function handleChange(e) {
-        
-        loader.classList.add = ('show')
-        mainImg.style.display = 'none';
+        loader.classList.add = ('show');
+        mainImg.classList.remove= ('show')
         const dog = e.target.value;
         const url = (`https://dog.ceo/api/breed/${dog}/images/random`)
 
@@ -32,8 +31,7 @@ fetch(DOG_URL)
             .then(res => res.json())
             .then(data => {
                 mainImg.src =  data.message
-               
-            })
+                })
     }
 
     mainImg.addEventListener('load', function() {
