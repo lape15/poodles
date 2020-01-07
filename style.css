@@ -21,9 +21,7 @@ nav{
     margin: 0;
     list-style: none;
   }
-  .main-image{
-      display : none
-  } 
+ 
   .loading-dog{
       animation: spin 1s infinite linear ;
       font-size: 3.1rem;
@@ -38,6 +36,9 @@ nav{
       height: 80vh;
       overflow: hidden;
   }
+  .main-image{
+    display : none
+} 
   .show{
       display: block
   }
