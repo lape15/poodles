@@ -21,8 +21,8 @@ fetch(DOG_URL)
     dogBreed.addEventListener('change', handleChange);
 
     mainImg.addEventListener('load', function() {
-       loader.classList.remove('show');
-       mainImg.classList.add('show');
+       loader.classList.remove = ('show');
+       mainImg.classList.add = ('show');
       });
     
 
