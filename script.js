@@ -24,7 +24,7 @@ fetch(DOG_URL)
     function handleChange(e) {
         
         loader.classList.add = ('show')
-        mainImg.classList.remove = ('show');
+        mainImg.style.display = 'none'
         const dog = e.target.value;
         const url = (`https://dog.ceo/api/breed/${dog}/images/random`)
 
